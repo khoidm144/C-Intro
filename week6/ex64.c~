@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<time.h>
+int main(){
+  int a;
+  int b;
+  srand(time(NULL));
+  a=rand()%11;
+  printf("Guess my number (between 1 and 10): ");
+  scanf("%d",&b);
+  if(a>b){
+    printf("Your guess was too small");
+  }
+  elsSDFDS
+        return 0;
+}
