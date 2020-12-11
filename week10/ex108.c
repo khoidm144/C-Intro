@@ -1,8 +1,9 @@
 #include<stdio.h>
-void sortAll(int a[]){
+void sortAll(int a[],int n){
   int temp;
-  for(int i=0;i<9;i++){
-    for(int j=i+1;j<10;j++){
+  int i=0,j=0;
+  for( i=0;i<n;i++){
+    for(j=i+1;j<n;j++){
       if(a[j]>=a[i]){
         temp=a[j];
 	a[j]=a[i];
@@ -51,26 +52,24 @@ int main(){
   sortAll(b,n);  
   printf("The number of number 0 in the array: %d\n",count);
   printf("The max length: %d\n",countLengthMax);
-  for(i=0;i<n;i++){
-    printf("%d %d\n",count1[i][0],count1[i][1]);
-  }
   int t=1;
-  for(i=1;i<n;i++){
-    if(b[0]!=b[1]){
-      printf("%d: 1",a[0]);
-    }
-      if(b[i]==b[i-1]){
-	t++;
-      }
-      else {
-        printf("%d : %d",b[i-1],t);
-	t=1;
-      }
-    }
+  int fre=0;
+  for(i=0;i<n-1;i++){
+  	if(b[i+1]==b[i]){
+  		t++;
+	  }
+	  else {
+	  	printf("%d %d \n",b[i],t);
+	  	fre=fre+t;
+	  	t=1;  	
+	  }
+  }
+  
+  	printf("%d  %d\n",b[n-1],n-fre);
 }
   
   
 
 
 
-}
+
