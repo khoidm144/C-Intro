@@ -1,11 +1,4 @@
 #include<stdio.h>
-void rotation11(int **a,int **b,int **c){
-  int *temp;
-  temp =*a;
-  *a=*b;
-  *b=*c;
-  *c=temp;
-}
 void rotation2(int **a,int **b,int **c){
   int *temp = *a;
   *a=*b;

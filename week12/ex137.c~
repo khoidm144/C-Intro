@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<string.h>
+int main(){
+  char s[5][30]={"TV127 31 inch Televison","CD057 CD Player","TA877 Abswering Machine","CS409 Car Stereo","PC655 Personal Computer"};
+  char look[10];
+  
+
+
+  return 0;
+}

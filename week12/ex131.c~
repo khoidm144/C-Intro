@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main(){
+  char s[40];
+  printf("Input the string: ");
+  scanf
+
+
+  
+  RETURN 0;
+}
