@@ -1,0 +1,86 @@
+**1 day la mot cau hoi1 ? 
+#   day la dap an 11
+#   day la dap an 21
+**2 day la mot cau hoi2 ? 
+#   day la dap an 12
+**3 day la mot cau hoi3 ? 
+#   day la dap an 13
+#   day la dap an 23
+#   day la dap an 33
+**2 day la mot cau hoi4 ? 
+#   day la dap an 14
+**1 day la mot cau hoi 5 ? 
+#   day la dap an 11
+#   day la dap an 21
+**1 day la mot cau hoi 6 ? 
+#   day la dap an 11
+#   day la dap an 21
+**1 day la mot cau hoi 7? 
+#   day la dap an 11
+#   day la dap an 21
+**1 day la mot cau hoi1 8? 
+#   day la dap an 11
+#   day la dap an 21
+**2 day la mot cau hoi9 ? 
+#   day la dap an 14
+**2 day la mot cau hoi10 ? 
+#   day la dap an 14
+**2 day la mot cau hoi11 ? 
+#   day la dap an 14
+**3 day la mot cau hoi12 ? 
+#   day la dap an 13
+#   day la dap an 23
+#   day la dap an 33
+**3 day la mot cau hoi13 ? 
+#   day la dap an 13
+#   day la dap an 23
+#   day la dap an 33
+**3 day la mot cau hoi14 ? 
+#   day la dap an 13
+#   day la dap an 23
+#   day la dap an 33
+**3 day la mot cau hoi15 ? 
+#   day la dap an 13
+#   day la dap an 23
+#   day la dap an 33
+**4 day la mot cau hoi16 ? 
+#   day la dap an 13
+#   day la dap an 23
+#   day la dap an 33
+**4 day la mot cau hoi17 ? 
+#   day la dap an 13
+#   day la dap an 23
+#   day la dap an 33
+**4 day la mot cau hoi18 ? 
+#   day la dap an 13
+#   day la dap an 23
+#   day la dap an 33
+**4 day la mot cau hoi19 ? 
+#   day la dap an 13
+#   day la dap an 23
+#   day la dap an 33
+**4 day la mot cau hoi20 ? 
+#   day la dap an 13
+#   day la dap an 23
+#   day la dap an 33
+**5 day la mot cau hoi21 ? 
+#   day la dap an 13
+#   day la dap an 23
+#   day la dap an 33
+**5 day la mot cau hoi22 ? 
+#   day la dap an 13
+#   day la dap an 23
+#   day la dap an 33
+**5 day la mot cau hoi23 ? 
+#   day la dap an 13
+#   day la dap an 23
+#   day la dap an 33
+**5 day la mot cau hoi24 ? 
+#   day la dap an 13
+#   day la dap an 23
+#   day la dap an 33
+**5 day la mot cau hoi25 ? 
+#   day la dap an 13
+#   day la dap an 23
+#   day la dap an 33
+
