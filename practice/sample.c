@@ -4,6 +4,7 @@
 #include<time.h>
 typedef struct {
 	
+	
 }a;
 void clear(){
 	char c;
