@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
+#include<time.h>
 typedef struct cauhoi{
 	int nhom;
 	char noidung[255];
@@ -43,9 +44,6 @@ int main(){
 		}
 		
 	}
-	for(i=0;i<count;i++){
-		printf("%d\n",list[i].nhom);
-	}
 	cauhoi temp;
 	printf("%d\n%d\n",count,countNhom);
 	for(i=0;i<count-1;i++){
@@ -62,10 +60,10 @@ int main(){
 	int loop=0;
 	int m;
 	char alphabet[] = {'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'};
-		srand(time(NULL));
+		srand((int) time(0));
 	for(i =0 ;i<15;i++){
 	    m=rand()%3;
-	    printf("%d\n",n);
+	    //printf("%d\n",n);
 	    m+=n;
 		newlist[i]=list[m];
 		loop++;
@@ -76,11 +74,13 @@ int main(){
 	}
 	for(i=0;i<15;i++){
 		fprintf(output,"%d. %s\n",i,newlist[i].noidung);
+		printf("%d. %s\n",i,newlist[i].noidung);
 		for(j=0;j<5;j++){
 			if(strlen(newlist[i].dapan[j])==0){
 				break;
 			}
 			fprintf(output,"%c) %s\n",alphabet[j],newlist[i].dapan[j]);
+			printf("%c) %s\n",alphabet[j],newlist[i].dapan[j]);
 		}
 	}
 	fclose(input);
