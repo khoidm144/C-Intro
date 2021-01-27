@@ -7,8 +7,8 @@ typedef struct {
 	
 }a;
 void clear(){
-	char c;
-	while(c=getchar()!='\n');
+	int c;
+	while((c=getchar()!='\n')&&c!=EOF);
 }
 int main(){
 	int choice=0,cur=0;
