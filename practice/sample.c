@@ -5,6 +5,7 @@
 
 typedef struct {
 	
+	
 }a;
 void clear(){
 	int c;
